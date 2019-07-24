@@ -1,0 +1,33 @@
+.hover {
+  margin: 0 auto;
+  width:250px;
+  border:solid 3px #7c6a6a;
+  border-radius: 5px;
+  color: #111;
+  font: bold 15px/40px Verdana,serif;
+  text-shadow: 1px 2px 1px red;
+  text-align:center;
+  transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s}
+
+.miring:hover {
+  /*nilai perubahan*/
+  background: blue;
+  color: black;
+  text-shadow: 1px 2px 2px #111;
+  transform:rotate(20deg);
+  -webkit-transform:rotate(20deg);
+  -moz-transform:rotate(20deg);
+  box-shadow: 2px 4px 3px 2px #222
+}
+.zoom:hover{
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+  background: #848484;
+  color: white;
+  text-shadow: 1px 2px 2px #111;
+
+}
